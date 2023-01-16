@@ -1,0 +1,25 @@
+{
+  "name": "js-pedersen-commitment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "node test/main.js"
+  },
+  "keywords": [
+    "pedersen",
+    "commitment",
+    "crypto"
+  ],
+  "dependencies": {
+    "big-integer": "^1.6.42",
+    "bignumber.js": "^6.0.0",
+    "bip39": "^2.5.0",
+    "bn": "^1.0.1",
+    "elliptic": "^6.4.0"
+  },
+  "devDependencies": {
+    "hdkey": "^0.8.0",
+    "mocha": "^5.0.0"
+  }
+}

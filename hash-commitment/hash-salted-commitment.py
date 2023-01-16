@@ -2,7 +2,8 @@ import random
 from hashlib import sha1
 
 m = 13
-c = sha1(bytes(m)).hexdigest()
+s = random.randint(1, 9999)
+c = sha1(bytes(m + s)).hexdigest()
 print(c)
 
 o = 13
