@@ -1,10 +1,10 @@
 import random
 from hashlib import sha1
 
-m = 13
+m = 3
 c = sha1(bytes(m)).hexdigest()
 print(c)
 
-o = 13
+o = 3
 check = sha1(bytes(o)).hexdigest()
-print("Даша won!") if c == check else "Попробуй ещё раз!"
+print("Даша выиграла!") if c == check else "Попробуй ещё раз!"
